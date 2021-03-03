@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JS Vacation Bucket List"
-date:       2021-02-26 21:40:23 +0000
+date:       2021-02-26 16:40:23 -0500
 permalink:  js_vacation_bucket_list
 ---
 
@@ -115,11 +115,9 @@ class Destination {
 
 A promise is an object which can be returned synchronously from an asynchronous function. It will be in one of 3 possible states:
 
-Fulfilled: `onFulfilled() `will be called (e.g.,` resolve()` was called)
-
-Rejected: `onRejected() `will be called (e.g., `reject() `was called)
-
-Pending: not yet fulfilled or rejected
+1. Pending
+2. Fulfilled
+3. Rejected
 
 A promise is settled if it’s not pending (it has been resolved or rejected).
 
