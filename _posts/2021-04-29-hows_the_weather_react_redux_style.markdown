@@ -6,7 +6,7 @@ permalink:  hows_the_weather_react_redux_style
 ---
 
 
-Every morning I wake up, and one of the first things I do is open the Weather Channel app on my phone to check the daily forecast so I make sure my kids are dressed accordingly for school. For my final project of the bootcamp, yes, I said it, FINAL PROJECT, I wanted to create an application that was meaningful and useful to me and my everyday lifestyle. Project builds are more fun if you choose to build something you're passionate about they say, right? So yes you guessed it, I built my very own current weather application!
+Every morning I wake up, and one of the first things I do is open the Weather Channel app on my phone to check the daily forecast so I make sure that my kids are dressed accordingly for school. For my final project of the bootcamp, yes, I said it, FINAL PROJECT, I wanted to create an application that was meaningful and useful to me and my everyday lifestyle. Project builds are more fun if you choose to build something you're passionate about they say, right? So yes, you guessed it, I built my very own current weather application!
 
 The project requirements made it seem like it was going to be smooth sailing...wrong! To say the least, this project has really opened my eyes about just how much we've learned over the last 10 months, and I was so ready to get going on this thing! 
 
