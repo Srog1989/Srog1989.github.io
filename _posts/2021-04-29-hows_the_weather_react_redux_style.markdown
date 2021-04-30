@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How's the weather react/redux style"
-date:       2021-04-30 01:50:22 +0000
+date:       2021-04-29 21:50:22 -0400
 permalink:  hows_the_weather_react_redux_style
 ---
 
@@ -20,8 +20,7 @@ To get it started I used the command create-react-app which gave me access to a 
 Another fun thing I used in my project was a weather icon font that is able to be used with bootstrap which gave me access to icons like the following in my application
  ![](https://camo.githubusercontent.com/91fd4b7a52c88bca80c99267c5189b910fcf176d2067a2917f7b55ccdece3b7d/687474703a2f2f692e696d6775722e636f6d2f586d5a573271332e706e67)
  
- I ended up having 1 container component,also known as the parent to presentational components, and it's titled "WeatherContainer". It's a class component that declares a couple of different dispatch actions, and i'm able render other components.  It also  holds my api call  and it is connected it to the store. 
- As mentioned above, I connected my container component to the store which is something new that came with redux. The store is basically a javascript object that allows components to share state. To declare store in my index.js file  I passed three arguments, the reducer ManageWeather which is where I set default state, thunk middleware, and dev tools extension. my index.js file ended up looking like this:
+ I ended up having 1 container component, also known as the parent to presentational components, and it's titled "WeatherContainer". It's a class component that declares a couple of different dispatch actions, and I'm able render other components inside of it.  It also  holds my api call  and it is connected it to the store.  The store is something new that came with redux, and it's basically a Javascript object that allows components to share state. To declare store in my index.js file  I passed three arguments, the reducer ManageWeather which is where I set default state, thunk middleware, and dev tools extension. my index.js file ended up looking like this:
 
 ```
 import React from 'react';
