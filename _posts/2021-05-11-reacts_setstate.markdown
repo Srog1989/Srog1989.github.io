@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React's setState()"
-date:       2021-05-11 19:21:59 +0000
+date:       2021-05-11 15:21:59 -0400
 permalink:  reacts_setstate
 ---
 
